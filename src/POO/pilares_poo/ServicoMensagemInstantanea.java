@@ -1,6 +1,6 @@
 package POO.pilares_poo;
 
-public abstract class SistemaMensagem {
+public abstract class ServicoMensagemInstantanea {
     private static final String PC_OFFLINE = "Computador Offline";
 
     public abstract void enviarMensagem();

@@ -1,6 +1,6 @@
 package POO.pilares_poo;
 
-public class Telegram extends SistemaMensagem {
+public class Telegram extends ServicoMensagemInstantanea {
     public void enviarMensagem() {
         System.out.println("Enviando mensagem pelo Telegram");
     }

@@ -1,6 +1,6 @@
 package POO.pilares_poo;
 
-public class FacebookMessenger extends SistemaMensagem {
+public class FacebookMessenger extends ServicoMensagemInstantanea {
     public void enviarMensagem() {
         System.out.println("Enviando mensagem pelo Facebook Messenger");
     }

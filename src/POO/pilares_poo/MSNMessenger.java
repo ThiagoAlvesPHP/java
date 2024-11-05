@@ -1,6 +1,6 @@
 package POO.pilares_poo;
 
-public class MSNMessenger extends SistemaMensagem {
+public class MSNMessenger extends ServicoMensagemInstantanea {
     public void enviarMensagem() {
         System.out.println("Enviando mensagem pelo MSN Messenger");
     }
